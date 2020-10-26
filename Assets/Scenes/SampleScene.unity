@@ -546,7 +546,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -616,7 +616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightSource: {fileID: 667007017}
-  newCreation: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,43 +739,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 722227219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04b4cf6491d6e364ea92bd61280b9a92, type: 3}
+  m_Script: {fileID: 11500000, guid: 07d6ed21c5f0cee4db1d1d32a617006c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  speed: 50
---- !u!1 &947052331 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2466587143528942595, guid: d534a1e701e8b124e934c1a4380f6fc7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2466587144473563944}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &947052333
+  speed: 60
+--- !u!114 &722227224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947052331}
+  m_GameObject: {fileID: 722227219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 419e976ce3354ca4895c43e78bbd4dec, type: 3}
+  m_Script: {fileID: 11500000, guid: f03df7a0ebe301440b90e86221ec70da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clampInDegrees: {x: 360, y: 180}
-  lockCursor: 0
-  sensitivity: {x: 2, y: 2}
-  smoothing: {x: 3, y: 3}
-  targetDirection: {x: 0, y: 0}
-  targetCharacterDirection: {x: 0, y: 0}
-  characterBody: {fileID: 722227219}
-  acceleration: 1
-  maxSpeed: 5
-  dampingSpeed: 5
-  fwdKey: 0
-  leftKey: 0
-  backKey: 0
-  rightKey: 0
+  cam: {fileID: 947052332}
+  sensitivity: 1000
+  headRotationLimit: 90
+--- !u!4 &947052332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2466587143528942596, guid: d534a1e701e8b124e934c1a4380f6fc7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2466587144473563944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &972739856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1535,7 @@ PrefabInstance:
     - target: {fileID: 2466587143545980637, guid: d534a1e701e8b124e934c1a4380f6fc7,
         type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2466587143545980637, guid: d534a1e701e8b124e934c1a4380f6fc7,
         type: 3}
