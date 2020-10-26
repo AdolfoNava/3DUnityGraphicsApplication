@@ -12,12 +12,12 @@ Problems:
 - Attaching a light object to a demo model for navigation/exploration purposes
 ### Second Commit Changes for this week
 Changes:
--- Implemented First Person Camera
--- Attached a flashlight in sync with the camera
---Implemented a dummy model courtesy of Kevin Iglesias
+- Implemented First Person Camera
+- Attached a flashlight in sync with the camera
+-Implemented a dummy model courtesy of Kevin Iglesias
 Problems:
--- Camera controls attached to the model is not synced and therefore disable at the moment
--- Creating a LightSource increases light intensity each time.
+- Camera controls attached to the model is not synced and therefore disable at the moment
+- Creating a LightSource increases light intensity each time.
 ## Week 7
 ### 
 ###
