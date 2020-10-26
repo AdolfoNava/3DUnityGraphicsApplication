@@ -29,4 +29,12 @@ Changes:
 
 Problems:
 - None spotted
-###
+### Light Shadows
+
+Changes:
+- The light sources in the model are now using hard shadows
+- The mouse cursor is now hidden and locked in place when the game is running
+- Adjusted syntax part of the attempt to deal with the exponential problem of instantiated light sources
+
+Problems:
+- None spotted
