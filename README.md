@@ -7,6 +7,7 @@ Changes:
 - Changed the Color of the TransitionLight game object
 - Created a new script (LightGenerationScript.cs) that created more TransitionLight objects and deletion of said objects
 - Added Folder Structure of the files from the last commit
+
 Problems:
 - Would delete all instances of the object immediately
 - Attaching a light object to a demo model for navigation/exploration purposes
@@ -14,10 +15,18 @@ Problems:
 Changes:
 - Implemented First Person Camera
 - Attached a flashlight in sync with the camera
--Implemented a dummy model courtesy of Kevin Iglesias
+- Implemented a dummy model courtesy of Kevin Iglesias
+
 Problems:
 - Camera controls attached to the model is not synced and therefore disable at the moment
 - Creating a LightSource increases light intensity each time.
 ## Week 7
-### 
+### First Person Movement
+Changes:
+- Incorporated movement with the body model, camera, and light source
+- The camera has sensitivity that is able to be adjusted
+- Movement speed is able to be adjusted
+
+Problems:
+- None spotted
 ###
